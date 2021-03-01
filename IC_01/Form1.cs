@@ -27,7 +27,7 @@ namespace WinForms
 
         private void btn_submit_Click(object sender, EventArgs e)
         {
-            lbl_text.Text = "Text submitted.";
+            lbl_text.Text = "Text submitted. ";
             lb_items.Items.Add(tb_input.Text);
         }
 
