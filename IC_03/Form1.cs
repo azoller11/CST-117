@@ -36,6 +36,8 @@ namespace IC_03
         {
             double ew = 0;
             ew = double.Parse(tb_enterWeight.Text);
+            //Conversion to mars weight
+
             ew *= 0.377;
 
             tb_newWeight.Text = ew + "";
